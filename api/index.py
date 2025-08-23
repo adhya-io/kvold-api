@@ -13,8 +13,6 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 def home():
     return 'Email API is running!'
 
-
-
 @app.route('/send-email', methods=['POST'])
 def send_email():
     try:
