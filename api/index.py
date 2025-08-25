@@ -16,11 +16,7 @@ TO_EMAIL = "adhya.io@outlook.com"  # Your email where you receive messages
 @app.route('/')
 def home():
     return jsonify({
-        "status": "Email API is running!",
-        "endpoints": {
-            "POST /send-email": "Send email",
-            "GET /health": "Health check"
-        }
+        "status": "Healthy!"
     })
 
 @app.route('/send-email', methods=['POST'])
