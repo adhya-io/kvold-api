@@ -11,7 +11,7 @@ resend.api_key = os.getenv("RESEND_API_KEY")
 
 # Hardcoded working values (based on your successful test)
 FROM_EMAIL = "system@resend.dev"  # Working sender
-TO_EMAIL = "adhya.io@outlook.com"  # Your email where you receive messages
+TO_EMAIL = "adhya.io@outlook.com"  # Your email where you receive messag
 
 @app.route('/')
 def home():
