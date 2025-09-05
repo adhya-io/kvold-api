@@ -6,6 +6,8 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend requests
 
+#removed the Allowed-Origin Environment variable
+
 # Set API key from environment
 resend.api_key = os.getenv("RESEND_API_KEY")
 
